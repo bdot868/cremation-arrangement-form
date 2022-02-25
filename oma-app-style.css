@@ -1,0 +1,201 @@
+
+body {
+  font-family: 'Open Sans',Helvetica,Arial,Lucida,sans-serif !important;
+  font-size: 16px !important;
+}
+#react-app {
+  /* margin: 5em 0; */
+}
+.lora-font {
+  font-family: 'Lora',Georgia,"Times New Roman",serif;
+}
+/***************************************
+              Home Page
+****************************************/
+
+.homepage-content {
+  width: 25em;
+  margin: auto;
+}
+
+.cremation-package {
+    background-color: #fef9ef;
+    border: 2px solid #f2ca62;
+}
+
+.cremation-package-title {
+    margin-top: 30px !important;
+    font-size: 50px;
+}
+
+.package-price {
+   font-size: 40px;
+   font-family: 'Open Sans',Helvetica,Arial,Lucida,sans-serif;
+   text-align: center;
+   margin-left: -20px;
+   letter-spacing: -.04em;
+   /* padding: 20px 0 0; */
+   color: #65625c
+}
+
+.package-price span {
+  font-size: 50%;
+  vertical-align: top;
+}
+
+.package-price .asterisk {
+  line-height: 2.5;
+  font-size: 40% !important;
+}
+
+.package-features {
+  padding: 10px
+}
+
+.package-features p {
+  padding-left: 10px;
+  font-weight: 600;
+  margin-bottom: .5em
+}
+
+.disclaimer {
+  margin-top: 10px !important;
+  color: #65625c
+}
+
+.primary-btn {
+    color: #ffffff !important;
+    border-width: 0px!important;
+    font-weight: 600!important;
+    background-color: #c4982f !important;
+    margin: 20px 0;
+    width: 10em;
+    padding: 5px 0;
+    border-radius: 3px;
+}
+
+.product-modal {
+  cursor: pointer;
+  font-weight: 600;
+  color: forestgreen;
+}
+
+/***************************************
+              Product Modals
+****************************************/
+.modal-header {
+  background: #385624;
+  color: #fff;
+}
+
+.modal-header .close {
+  color: #fff;
+}
+
+.product-description {
+  float:  right;
+}
+
+/* .modal-footer {
+  background: #103a71;
+  color: #fff;
+} */
+
+/***************************************
+              Form Page
+****************************************/
+form {
+  margin: 20px 0;
+  color: #000;
+}
+
+h2 {
+    font-weight: 700;
+    color: #c4982f !important;
+}
+
+h4 {
+    font-weight: 700 !important;
+    font-size: 16px !important;
+    color: #c4982f !important;
+}
+
+.phoneNumber {
+  /* color: #103a71 !important; */
+  font-weight: 600;
+}
+
+.form-header {
+  color: #c4982f !important;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.address {
+  margin: 10px 0;
+}
+
+.cart-price {
+  float: right;
+  font-weight: 600;
+}
+
+.cart-price .asterisk {
+  vertical-align: text-bottom;
+}
+
+/***************************************
+              Confirmation Page
+****************************************/
+.confirmation-container {
+  margin: 30px 0;
+  background: #fef9ef;
+  border: 3px solid #c4982f;
+}
+
+.confirmation-container .products,
+.confirmation-container .cart,
+.confirmation-container .funeral-home {
+  padding: 10px;
+}
+
+.confirmation-container .products {
+  text-align: center;
+  border-left: 3px solid #c4982f;
+  border-right: 3px solid #c4982f;
+}
+
+.confirmation-container .products img {
+  width: 50%;
+}
+
+.confirmation-page button {
+  margin-right: 10px;
+}
+
+.email-btn {
+  width: auto;
+  padding: 5px 20px;
+}
+
+.col {
+  padding: 20px 0;
+}
+/***************************************
+              Mobile Styles
+****************************************/
+
+@media only screen and (max-width: 600px) {
+  .homepage-content {
+    width: 100%;
+    margin: auto;
+  }
+
+  .confirmation-container .products {
+    text-align: center;
+    border-left: none;
+    border-right: none;
+    border-top: 3px solid #c4982f;
+    border-bottom: 3px solid #c4982f
+  }
+}
